@@ -1,15 +1,14 @@
-#include "main.h"
+#include <stdio.h>
 
 /**
- * main - check the code
+ * main - printing the address of a pointer
  *
  * Return: Always 0.
  */
 int main(void)
 {
-char *str;
+  int *p;
 
-str = "I do not fear computers. I fear the lack of them - Isaac Asimov";
-_puts(str);
-return (0);
+  printf("Address of variable 'p': %p\n", &p);
+  return (0);
 }
