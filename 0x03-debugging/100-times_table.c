@@ -1,8 +1,8 @@
 #include "main.h"
 
 /**
- * print_times_table - Prints the times table of the input,
- * starting with 0.
+ * print_times_table - Prints the n times table
+ *
  * @n: number times table (0 < n <= 15)
  *
  * Return: no return
